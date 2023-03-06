@@ -1,9 +1,13 @@
-function App() {
+import { Button } from './components/Button'
+
+export function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
+    <>
+      <Button variant="primary" />
+      <Button variant="secondary" />
+      <Button variant="danger" />
+      <Button variant="sucess" />
+      <Button />
+    </>
   )
 }
-
-export default App
